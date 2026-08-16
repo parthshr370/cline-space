@@ -2,7 +2,7 @@ import { execFileSync } from "node:child_process";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { ClineCore } from "@cline/core";
+import { ClineCore } from "@cline/sdk";
 import reviewerTools, { findings, keptIndices, setPhase, type Finding } from "./plugins/reviewer-tools.ts";
 import guard from "./plugins/tool-guard.ts";
 import journal, { auditLog } from "./plugins/review-journal.ts";

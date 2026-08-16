@@ -1,4 +1,4 @@
-import type { AgentPlugin } from "@cline/core";
+import type { AgentPlugin } from "@cline/sdk";
 
 const BLOCKED_TOOLS: Record<string, true> = { apply_patch: true, editor: true };
 

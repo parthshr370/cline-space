@@ -27,7 +27,7 @@ test/guard-drive.ts         17 deterministic guard and phase checks (no model, n
 
 ## Prerequisites
 
-- `bun`, `@cline/core` installed (`bun install`)
+- `bun`, `@cline/sdk` installed (`bun install`)
 - `cline auth` configured (uses `openai-codex` / `gpt-5.5` by default; override with `REVIEW_PROVIDER` / `REVIEW_MODEL`)
 - `gh` authenticated (for PR mode and posting)
 

@@ -1,4 +1,4 @@
-import type { AgentPlugin } from "@cline/core";
+import type { AgentPlugin } from "@cline/sdk";
 
 export interface AuditEntry {
 	tool: string;
