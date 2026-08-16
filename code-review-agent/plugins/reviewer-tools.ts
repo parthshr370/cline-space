@@ -1,4 +1,4 @@
-import { type AgentPlugin, createTool } from "@cline/core";
+import { type AgentPlugin, createTool } from "@cline/sdk";
 
 export type Severity = "blocker" | "warning" | "nit";
 export type Side = "RIGHT" | "LEFT";
